@@ -2,13 +2,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/**
-*@brief 오브젝트 풀링 스크롤뷰 컨트롤러
-*@details 셀을 오브젝트 풀링으로 관리해주는 스크롤뷰 컨트롤러
-*         셀 생성, 초기화, 재사용 로직 구현
-*         컨트롤러에서 구현한 셀 UI구성요소 조작시 실행 될 델리게이트 연결
-*@author 홍성윤
-*/
+    /**
+    *@brief   재사용 스크롤뷰 컨트롤러
+    *@details 셀 재사용 스크롤뷰 컨트롤러
+    *         셀 생성, 초기화, 재사용 로직 구현
+    *         컨트롤러에서 구현한 셀 UI구성요소 조작시 실행 될 델리게이트 연결
+    *@author 홍성윤
+    */
 [RequireComponent(typeof(ScrollRect))]
 [RequireComponent(typeof(RectTransform))]
 public abstract class UIScrollViewController<T> : MonoBehaviour
